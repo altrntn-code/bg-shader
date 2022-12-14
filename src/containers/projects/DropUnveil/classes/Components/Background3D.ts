@@ -17,8 +17,8 @@ export class Background3D extends InteractiveObject3D {
   _material: THREE.ShaderMaterial | null = null;
   _gui: GUI;
   _background = {
-    color1: [0 / 255, 184 / 255, 129 / 255], // [255 / 255, 139 / 255, 31 / 255]
-    color2: [0 / 255, 184 / 255, 194 / 255], // [0 / 255, 200 / 255, 255 / 255]
+    color1: [37 / 255, 66 / 255, 46 / 255],
+    color2: [221 / 255, 211 / 255, 178 / 255],
     colorAccent: [0 / 255, 0 / 255, 0 / 255],
     uLinesBlur: 0.25,
     uNoise: 0.075,
@@ -31,6 +31,7 @@ export class Background3D extends InteractiveObject3D {
 
   constructor({ gui }: Constructor) {
     super();
+    this._gui.hide();
     this._gui = gui;
     this._setGui();
     this._drawObject();
