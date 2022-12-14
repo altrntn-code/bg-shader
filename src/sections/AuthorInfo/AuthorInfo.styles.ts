@@ -25,6 +25,7 @@ interface WrapperProps {
 }
 
 export const Wrapper = styled.div<WrapperProps>`
+visibility: hidden;
   position: fixed;
   z-index: 20;
   display: flex;
@@ -55,6 +56,7 @@ export const Wrapper = styled.div<WrapperProps>`
 `;
 
 export const IconsWrapper = styled.div`
+visibility: hidden;
   display: flex;
   align-items: center;
   position: absolute;
@@ -71,6 +73,7 @@ interface ImageWrapperProps {
 }
 
 export const ImageWrapper = styled.div<ImageWrapperProps>`
+visibility: hidden;
   position: fixed;
   z-index: 20;
   display: flex;
@@ -89,6 +92,7 @@ export const ImageWrapper = styled.div<ImageWrapperProps>`
 `;
 
 export const ImageContainer = styled.button`
+visibility: hidden;
   cursor: pointer;
   user-select: initial;
   pointer-events: initial;
@@ -106,6 +110,7 @@ export const ImageContainer = styled.button`
 `;
 
 export const AuthorImage = styled.img`
+visibility: hidden;
   user-select: none;
   pointer-events: none;
   position: absolute;
@@ -119,18 +124,23 @@ export const AuthorImage = styled.img`
 `;
 
 export const IconWrapper = styled.div`
+visibility: hidden;
   margin-right: ${iconMargin}px;
 `;
 
 export const GithubSvgComp = styled(GithubSvg)`
+visibility: hidden;
   width: ${iconSize}px;
 `;
 export const LnSvgComp = styled(LnSvg)`
+visibility: hidden;
   width: ${iconSize}px;
 `;
 export const TwitterSvgComp = styled(TwitterSvg)`
+visibility: hidden;
   width: ${iconSize}px;
 `;
 export const WebSvgComp = styled(WebSvg)`
+visibility: hidden;
   width: ${iconSize}px;
 `;
