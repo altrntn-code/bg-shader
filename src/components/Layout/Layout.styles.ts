@@ -39,6 +39,7 @@ export const AppBackground = styled.div`
 `;
 
 export const BackWrapper = styled.h1`
+visibility: hidden
   position: fixed;
   z-index: 20;
   top: 10px;
@@ -53,6 +54,7 @@ export const BackWrapper = styled.h1`
 `;
 
 export const BackBtn = styled.button`
+visibility: hidden
   display: inline-block;
   cursor: pointer;
   position: relative;
@@ -90,6 +92,7 @@ export const BackBtn = styled.button`
 `;
 
 export const BackBtnLabel = styled.span`
+visibility: hidden
   ${s1};
   ${underline};
   position: absolute;
