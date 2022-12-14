@@ -12,8 +12,8 @@ export default function IndexPage() {
       <S.Wrapper>
         <S.ProjectsWrapper>
           <S.ProjectContainer>
-            <Link href="/projects/first-person" passHref>
-              <S.ProjectLink>1. First Person Controls</S.ProjectLink>
+            <Link href="/projects/drop-unveil" passHref>
+              <S.ProjectLink>BG-Shader_GLSL</S.ProjectLink>
             </Link>
           </S.ProjectContainer>
         </S.ProjectsWrapper>
