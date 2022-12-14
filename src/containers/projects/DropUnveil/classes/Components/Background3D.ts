@@ -31,8 +31,8 @@ export class Background3D extends InteractiveObject3D {
 
   constructor({ gui }: Constructor) {
     super();
-    this._gui.hide();
     this._gui = gui;
+    this._gui.hide();
     this._setGui();
     this._drawObject();
   }
