@@ -36,11 +36,11 @@ export const Layout = (props: Props) => {
       <S.ReadyWrapper isReady={isReady}></S.ReadyWrapper>
       <S.AppBackground />
       {router.pathname !== '/' && (
-//         <S.BackWrapper>
-//           <S.BackBtn onClick={handleBack}>
-//             <S.BackBtnLabel>Home</S.BackBtnLabel>
-//           </S.BackBtn>
-//         </S.BackWrapper>
+        <S.BackWrapper>
+<!--           <S.BackBtn onClick={handleBack}>
+            <S.BackBtnLabel>Home</S.BackBtnLabel>
+          </S.BackBtn> -->
+        </S.BackWrapper>
       )}
 
       <AuthorInfo />
