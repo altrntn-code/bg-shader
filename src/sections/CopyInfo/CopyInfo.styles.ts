@@ -4,6 +4,7 @@ import { media } from 'utils/media';
 import { underline, s2, s1 } from 'utils/sharedStyled';
 
 export const GithubWrapper = styled.div`
+visibility: hidden
   display: initial;
   position: fixed;
   z-index: 20;
@@ -15,6 +16,7 @@ export const GithubWrapper = styled.div`
   transform: rotate(-90deg) translateY(calc(100% + 16px)) translateX(15px);
 
   ${media.tablet} {
+  visibility: hidden;
     transform: none;
     bottom: 20px;
     left: 30px;
@@ -22,6 +24,7 @@ export const GithubWrapper = styled.div`
 `;
 
 export const AuthorWrapper = styled.h1`
+visibility: hidden;
   position: fixed;
   z-index: 20;
   bottom: 10px;
@@ -33,12 +36,14 @@ export const AuthorWrapper = styled.h1`
   ${s1};
 
   ${media.tablet} {
+  visibility: hidden;
     bottom: 20px;
     right: 30px;
   }
 `;
 
 export const GithubLink = styled.span`
+visibility: hidden;
   display: inline-block;
   position: relative;
   ${s1};
@@ -46,6 +51,7 @@ export const GithubLink = styled.span`
 `;
 
 export const AuthorLink = styled.span`
+visibility: hidden;
   display: inline-block;
   font-weight: 800;
   position: relative;
@@ -54,6 +60,7 @@ export const AuthorLink = styled.span`
 `;
 
 export const InspirationWrapper = styled.h1`
+visibility: hidden;
   display: none;
 
   ${media.tabletLand} {
@@ -72,6 +79,7 @@ export const InspirationWrapper = styled.h1`
 `;
 
 export const InspirationLink = styled.span`
+visibility: hidden;
   display: inline-block;
   font-weight: 800;
   position: relative;
