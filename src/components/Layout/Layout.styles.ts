@@ -61,7 +61,7 @@ export const BackBtn = styled.button`
   width: 66px;
 
   &:after {
-  visibility: hidden;
+    visibility: hidden;
     content: '';
     display: block;
     padding-bottom: 100%;
