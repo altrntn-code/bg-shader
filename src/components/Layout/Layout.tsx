@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useRouter } from 'next/router';
+// import { useRouter } from 'next/router';
 
 import { CopyInfo } from 'sections/CopyInfo/CopyInfo';
 import { AuthorInfo } from 'sections/AuthorInfo/AuthorInfo';
@@ -16,7 +16,7 @@ interface Props {
 
 export const Layout = (props: Props) => {
   const { repoHref, inspirationHref, inspirationName, children, isReady } = props;
-  const router = useRouter();
+//   const router = useRouter();
 
   useEffect(() => {
     if (isReady && !document.body.classList.contains('isReady')) {
@@ -27,9 +27,9 @@ export const Layout = (props: Props) => {
     };
   }, [isReady]);
 
-  const handleBack = () => {
-    void router.push({ pathname: '/' });
-  };
+//   const handleBack = () => {
+//     void router.push({ pathname: '/' });
+//   };
 
   return (
     <>
