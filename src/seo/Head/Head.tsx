@@ -11,8 +11,7 @@ export interface HeadProps {
 
 export const Head = (props: HeadProps) => {
   const {
-    ogImage = 'https://none.jpg',
-    title = 'Portfolio 2022',
+    title = 'GLSL',
     description = 'Shader',
   } = props;
 
@@ -24,8 +23,7 @@ export const Head = (props: HeadProps) => {
       />
 
       <meta property="og:type" content="website" />
-      <meta property="og:title" content={`Shader - ${title}`} />
-    
+     
 
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
