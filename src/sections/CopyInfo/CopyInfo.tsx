@@ -12,7 +12,7 @@ interface Props {
 
 export const CopyInfo = (props: Props) => {
   const {
-    repoHref = 'https://github.com/michalzalobny/creative-bay',
+    repoHref = 'https://github.com/none/shader',
     inspirationHref,
     inspirationName,
   } = props;
@@ -25,10 +25,10 @@ export const CopyInfo = (props: Props) => {
         </LinkHandler>
       </S.GithubWrapper>
       <S.AuthorWrapper>
-        <LinkHandler isExternal elHref="https://creativeprojects.vercel.app/">
-          <S.AuthorLink>Michal Zalobny</S.AuthorLink>
+        <LinkHandler isExternal elHref="https://bg-shader-nvw20wn0y-altrntn-code.vercel.app/projects/drop-unveil">
+          <S.AuthorLink>None</S.AuthorLink>
         </LinkHandler>
-        portfolio 2022 - WebGL &#38; GLSL
+        shader &#38; GLSL
       </S.AuthorWrapper>
 
       {inspirationName && (
