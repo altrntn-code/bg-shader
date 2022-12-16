@@ -11,14 +11,14 @@ export interface HeadProps {
 
 export const Head = (props: HeadProps) => {
   const {
-    ogImage = 'https://res.cloudinary.com/dpv0ukspz/image/upload/v1650138958/og-100_mvbgru.jpg',
+    ogImage = 'https://none.jpg',
     title = 'Portfolio 2022',
-    description = 'Michal Zalobny portfolio 2022 WebGL & GLSL',
+    description = 'Shader',
   } = props;
 
   return (
     <NextHead>
-      <title>{`Michal Zalobny - ${title}`}</title>
+      <title>{`Shader - ${title}`}</title>
       <meta name="description" content={description} />
       <link
         rel="icon"
@@ -26,13 +26,12 @@ export const Head = (props: HeadProps) => {
       />
 
       <meta property="og:type" content="website" />
-      <meta property="og:title" content={`Michal Zalobny - ${title}`} />
+      <meta property="og:title" content={`Shader - ${title}`} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={ogImage} />
 
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content={`Michal Zalobny - ${title}`} />
-      <meta name="twitter:description" content={description} />
+      <meta name="twitter:title" content={`Shader - ${title}`} />
 
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
