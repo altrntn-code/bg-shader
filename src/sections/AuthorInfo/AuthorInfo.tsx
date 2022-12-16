@@ -70,24 +70,24 @@ export const AuthorInfo = () => {
       >
         <S.IconsWrapper style={{ display: displayIcons ? 'flex' : 'none' }}>
           <S.IconWrapper>
-            <LinkHandler isExternal elHref={'https://twitter.com/michalzalobny'}>
+            <LinkHandler isExternal elHref={'https://twitter.com/none'}>
               <S.TwitterSvgComp />
             </LinkHandler>
           </S.IconWrapper>
           <S.IconWrapper>
-            <LinkHandler isExternal elHref={'https://github.com/michalzalobny'}>
+            <LinkHandler isExternal elHref={'https://github.com/none'}>
               <S.GithubSvgComp />
             </LinkHandler>
           </S.IconWrapper>
           <S.IconWrapper>
             <LinkHandler
               isExternal
-              elHref={'https://www.linkedin.com/in/michal-zalobny-1a8257204/'}
+              elHref={'https://www.linkedin.com/in/none/'}
             >
               <S.LnSvgComp />
             </LinkHandler>
           </S.IconWrapper>
-          <LinkHandler isExternal elHref={'https://creativeprojects.vercel.app/'}>
+          <LinkHandler isExternal elHref={'https://bg-shader.vercel.app/projects/drop-unveil/'}>
             <S.WebSvgComp />
           </LinkHandler>
         </S.IconsWrapper>
