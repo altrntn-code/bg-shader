@@ -19,19 +19,13 @@ export const Head = (props: HeadProps) => {
   return (
     <NextHead>
       <title>{`Shader - ${title}`}</title>
-      <meta name="description" content={description} />
       <link
         rel="icon"
-        href="https://res.cloudinary.com/dpv0ukspz/image/upload/v1650137433/icon_wghyio.ico"
       />
 
       <meta property="og:type" content="website" />
       <meta property="og:title" content={`Shader - ${title}`} />
-      <meta property="og:description" content={description} />
-      <meta property="og:image" content={ogImage} />
-
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content={`Shader - ${title}`} />
+    
 
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
